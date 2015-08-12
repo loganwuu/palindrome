@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+	 <title>Palindrome Checker</title>
+</head>
+<body>
+	<div class="container">
+		{% if result == true %}
+			<h1>Yes, it is a palindrome!</h1>
+		{% else %}
+			<h1>Nope, not a palindrome.</h1>
+		{% endif %}
+		<form action='/'>
+			<button type='submit' class='btn-success'>Go Back</button>
+		</form>
+	</div>
+</body>
+</html>
